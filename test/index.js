@@ -8,6 +8,7 @@ const Lab = require('lab');
 const lab = exports.lab = Lab.script();
 
 const afterEach = lab.afterEach;
+const beforeEach = lab.beforeEach;
 
 const describe = lab.describe;
 const it = lab.it;
@@ -19,6 +20,12 @@ describe('module', () => {
 
     describe('fetch', () => {
 
+        beforeEach((done) => {
+
+            Decache('wreck');
+            done();
+        });
+
         afterEach((done) => {
 
             Decache('wreck');
@@ -27,7 +34,6 @@ describe('module', () => {
 
         it('should call the API to get the list of the known exit nodes', { plan: 3 }, (done) => {
 
-            Decache('wreck');
             const Wreck = require('wreck');
             Wreck.get = function (url, options, cb) {
 
