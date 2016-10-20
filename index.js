@@ -3,13 +3,10 @@
  * Please refer to our terms for more information: https://www.sqreen.io/terms.html
  */
 'use strict';
-
+const Store = require('./lib/store');
 module.exports.fetch = function (cb) {
 
-    return cb(new Error('not implemented yet'));
+    Store.getStore(true, cb);
 };
 
-module.exports.isTor = function (ip, cb) {
-
-    return cb(new Error('not implemented yet'));
-};
+module.exports.isTor = Store.isInStore;
