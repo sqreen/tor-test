@@ -1,0 +1,36 @@
+{
+  "name": "tor-test",
+  "version": "0.0.0",
+  "description": "Nodejs tool to check if a request comes from Tor",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -cL -a code -t 100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqreen/tor-test.git"
+  },
+  "keywords": [
+    "tor",
+    "test",
+    "request",
+    "security",
+    "clients",
+    "Tor",
+    "TOR"
+  ],
+  "author": "vdeturckheim (vlad@sqreen.io)",
+  "license": "PENDING",
+  "bugs": {
+    "url": "https://github.com/sqreen/tor-test/issues"
+  },
+  "homepage": "https://github.com/sqreen/tor-test#readme",
+  "dependencies": {
+    "wreck": "^10.0.0"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "lab": "^11.1.0",
+    "proxyquire": "^1.7.10"
+  }
+}
