@@ -14,7 +14,6 @@ app.use((req, res, next) => {
         
         if (err) { return next(err); }
         if (isTor) { 
-            res.status = 500;
             return next(new Error('Tor user')); 
         }
         return next();
