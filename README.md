@@ -49,4 +49,4 @@ It takes 3 arguments:
 ## Cookbook
 
 A cookbook is available for this module:
-* [Usage with Express to exclude Tor users](./cookbook/express.md)
+* [Express: exclude Tor users](./cookbook/express.md)
