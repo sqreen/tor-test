@@ -4,7 +4,8 @@
   "description": "Nodejs tool to check if a request comes from Tor",
   "main": "index.js",
   "scripts": {
-    "test": "lab -cL -a code -t 100"
+    "test": "lab -cL -a code -t 100",
+    "test-cov": "lab -cLv -a code -r console -o stdout -r html -o coverage.html"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
   },
   "devDependencies": {
     "code": "^4.0.0",
-    "lab": "^11.1.0"
+    "lab": "^11.1.0",
+    "proxyquire": "^1.7.10"
   }
 }
