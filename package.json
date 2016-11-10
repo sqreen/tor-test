@@ -21,7 +21,7 @@
     "TOR"
   ],
   "author": "vdeturckheim (vlad@sqreen.io)",
-  "license": "PENDING",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sqreen/tor-test/issues"
   },
