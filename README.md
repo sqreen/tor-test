@@ -63,3 +63,4 @@ It takes 3 arguments:
 A cookbook is available for this module:
 * [Express: exclude Tor users](./cookbook/express.md)
 * [hapi: exclude Tor users](./cookbook/express.md)
+* [Update the exit nodes list daily](./cookbook/update.md)
