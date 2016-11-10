@@ -101,7 +101,7 @@ describe('store', () => {
             };
 
             const Store = require('../../lib/store');
-            Store.isInStore('127.0.0.1', true, (err, res) => {
+            Store.isInStore(':ffff:127.0.0.1', true, (err, res) => {
 
                 expect(err).to.not.exist();
                 expect(res).to.be.true();
