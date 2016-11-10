@@ -1,13 +1,25 @@
 # tor-test [![Build Status](https://travis-ci.org/sqreen/tor-test.svg?branch=master)](https://travis-ci.org/sqreen/tor-test)
 
+Individuals can use Tor to prevent websites from tracking them or to access websites blocked by their local Internet 
+providers. Journalists, dissidents, and non-governmental organizations all use Tor for sensitive communications or for 
+bypassing laws in countries where the internet is tightly regulated by the government. These are what Tor was built for, 
+and are only a fraction of the legitimate use cases for Tor.
 
-Tor-test checks if a specific ip address is a Tor exit node.
+> A user coming from Tor is between 6 and 8 times more likely to perform an attack.
+
+![tor-risks](./cookbook/risk-image.png)
+
+[Learn more on Sqreen Blog.](https://blog.sqreen.io/tor-the-good-the-bad-and-the-ugly/)
+
+This module checks whether a specific ip address is a Tor exit node. In other words tor-test lets you know if a connection
+to your Node.js application is coming from the Tor network.
 
 ## Installation
 
 ```sh
 $ npm i -S tor-test
 ```
+This will install the module and save it in your `package.json` as dependency.
 
 ## Usage
 
