@@ -28,7 +28,7 @@ const TorTest = require('tor-test');
 
 TorTest.isTor('127.0.0.1', (err, isTor) => {
 
-    // isTor is true
+    // isTor is false
 });
 ```
 
