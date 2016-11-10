@@ -28,6 +28,7 @@
   "homepage": "https://github.com/sqreen/tor-test#readme",
   "dependencies": {
     "decache": "^4.1.0",
+    "ip": "^1.1.4",
     "wreck": "^10.0.0"
   },
   "devDependencies": {
