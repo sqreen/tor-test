@@ -1,16 +1,5 @@
 # tor-test [![Build Status](https://travis-ci.org/sqreen/tor-test.svg?branch=master)](https://travis-ci.org/sqreen/tor-test)
 
-Individuals can use Tor to prevent websites from tracking them or to access websites blocked by their local Internet 
-providers. Journalists, dissidents, and non-governmental organizations all use Tor for sensitive communications or for 
-bypassing laws in countries where the internet is tightly regulated by the government. These are what Tor was built for, 
-and are only a fraction of the legitimate use cases for Tor.
-
-> A user coming from Tor is between 6 and 8 times more likely to perform an attack.
-
-![tor-risks](./cookbook/risk-image.png)
-
-[Learn more on Sqreen Blog.](https://blog.sqreen.io/tor-the-good-the-bad-and-the-ugly/)
-
 This module checks whether a specific ip address is a Tor exit node. In other words tor-test lets you know if a connection
 to your Node.js application is coming from the Tor network.
 
@@ -61,6 +50,8 @@ It takes 3 arguments:
 ## Cookbook
 
 A cookbook is available for this module:
+* [Log all connections from Tor](./cookbook/log.md) (framework agnostic)
+* [Update the exit nodes list daily](./cookbook/update.md)
 * [Express: exclude Tor users](./cookbook/express.md)
 * [hapi: exclude Tor users](./cookbook/express.md)
-* [Update the exit nodes list daily](./cookbook/update.md)
+
