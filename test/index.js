@@ -37,7 +37,7 @@ describe('module', () => {
             const Wreck = require('wreck');
             Wreck.get = function (url, options, cb) {
 
-                expect(url).to.equal('http://xxx.sqreen.io/sqreen/v0/ips/tor/exit_nodes');
+                expect(url).to.equal('http://sqreen-tor.s3-website-eu-west-1.amazonaws.com/sqreen/v0/ips/tor/exit_nodes');
                 expect(options).to.equal({ headers: { accept: 'application/json' }, json: true });
                 return cb(null, { statusCode: 200 },{ date: new Date(), list: [] });
             };
