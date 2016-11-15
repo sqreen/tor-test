@@ -3,6 +3,8 @@
 This module checks whether a specific ip address is a Tor exit node. In other words tor-test lets you know if a connection
 to your Node.js application is coming from the Tor network.
 
+[See associated blogpost](https://blog.sqreen.io/identify-tor-connections-node-js-tor-test/).
+
 ## Installation
 
 ```sh
