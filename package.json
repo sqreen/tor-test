@@ -1,6 +1,6 @@
 {
   "name": "tor-test",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Nodejs tool to check if a request comes from Tor",
   "main": "index.js",
   "scripts": {
