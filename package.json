@@ -27,12 +27,12 @@
   },
   "homepage": "https://github.com/sqreen/tor-test#readme",
   "dependencies": {
-    "decache": "^4.1.0",
     "ip": "^1.1.4",
     "wreck": "^10.0.0"
   },
   "devDependencies": {
     "code": "^4.0.0",
+    "decache": "^4.1.0",
     "lab": "^11.1.0",
     "proxyquire": "^1.7.10"
   }
