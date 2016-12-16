@@ -48,6 +48,11 @@ It takes 3 arguments:
     * `err` is an `Error` or `null`
     * `result` is a boolean. It will equal `true` is `addr` is the address of a Tor exit node
     
+### refreshStoreOlderThan(days, callback):
+
+This method set the maximum days elapsed before an automatic reload of the Tor node exit node list.
+* `days`: a number representing the maximum of days before an automatic reload of the Tor exit node node list.
+* `callback`: a function which signature is `function (err)` where `err` is an `Error` or `null`.
 
 ## Cookbook
 
