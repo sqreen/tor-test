@@ -60,5 +60,5 @@ A cookbook is available for this module:
 * [Log all connections from Tor](./cookbook/log.md) (framework agnostic)
 * [Update the exit nodes list daily](./cookbook/update.md)
 * [Express: exclude Tor users](./cookbook/express.md)
-* [hapi: exclude Tor users](./cookbook/express.md)
+* [hapi: exclude Tor users](./cookbook/hapi.md)
 
